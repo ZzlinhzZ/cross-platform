@@ -20,6 +20,7 @@ MiCard is a simple Flutter application that displays a personal business card. T
    ```sh
    flutter pub get
 4. Run the app:
+   ```sh
    flutter run
 
 
