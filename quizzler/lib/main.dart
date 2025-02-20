@@ -27,11 +27,17 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   int point = 0;
   List<Question> questionBank = [
-    Question(questionText: 'Flutter is developed by Google.', answer: true),
     Question(
-        questionText: 'Dart is used for backend development only.',
-        answer: false),
-    Question(questionText: 'Widgets in Flutter are immutable.', answer: true),
+        questionText: 'Trái Đất là hành tinh thứ ba tính từ Mặt Trời.',
+        answer: true),
+    Question(
+        questionText: 'Con mèo có thể thấy màu đỏ và xanh.', answer: false),
+    Question(
+        questionText: 'Cá voi là loài động vật có vú lớn nhất trên hành tinh.',
+        answer: true),
+    Question(
+        questionText: "Núi Everest là ngọn núi cao nhất thế giới.",
+        answer: true)
   ];
 
   int questionIndex = 0;
