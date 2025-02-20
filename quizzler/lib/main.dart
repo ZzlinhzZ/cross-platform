@@ -57,8 +57,8 @@ class _QuizPageState extends State<QuizPage> {
       } else {
         Alert(
           context: context,
-          title: 'Finished! You are correct $point times.',
-          desc: 'You\'ve reached the end of the quiz.',
+          title: 'Bạn đã trả lời đúng $point câu.',
+          desc: 'Hết ròi',
           buttons: [
             DialogButton(
               onPressed: () {
@@ -70,7 +70,7 @@ class _QuizPageState extends State<QuizPage> {
               },
               width: 120,
               child: Text(
-                'RESTART',
+                'Làm lại',
                 style: TextStyle(color: Colors.white, fontSize: 20),
               ),
             )
